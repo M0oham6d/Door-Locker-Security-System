@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete 2 resources" deleteContents="false" description="Delete 2 resources" element1="/Door_Locker_Security_System_Control_ECU/HAL/lcd.c" element2="/Door_Locker_Security_System_Control_ECU/HAL/lcd.h" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="2" stamp="1730046607681"/>
+</session>

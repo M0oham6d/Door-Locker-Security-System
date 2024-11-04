@@ -1,0 +1,17 @@
+/*
+ * Door_Locker_Security_System_Control_ECU.h
+ *
+ *  Created on: Oct 27, 2024
+ *      Author: Muhammed Ayman
+ */
+
+#ifndef APPLICATION_DOOR_LOCKER_SECURITY_SYSTEM_CONTROL_ECU_H_
+#define APPLICATION_DOOR_LOCKER_SECURITY_SYSTEM_CONTROL_ECU_H_
+
+#define PASSWORD_SIZE			5
+#define I_AM_READY				0x01
+#define WRONG_PASS				1U
+#define CORRECT_PASS			0U
+#define ONE_SECOND_COUNT 7812 // Compare match value for 1 second delay with 1024 prescaler
+
+#endif /* APPLICATION_DOOR_LOCKER_SECURITY_SYSTEM_CONTROL_ECU_H_ */

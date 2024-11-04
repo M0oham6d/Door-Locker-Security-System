@@ -1,0 +1,20 @@
+06:38:34 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+
+06:38:34 Build Finished. 0 errors, 0 warnings. (took 250ms)
+

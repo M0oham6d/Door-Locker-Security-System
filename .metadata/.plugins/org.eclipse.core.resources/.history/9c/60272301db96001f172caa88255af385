@@ -1,0 +1,18 @@
+/***************************************************************************************************************
+ * Door_Locker_Security_System_HMI_ECU.h
+ * Author: Muhammed Ayman
+ * Module: APPLICATION
+ **************************************************************************************************************/
+
+#ifndef APPLICATION_DOOR_LOCKER_SECURITY_SYSTEM_HMI_ECU_H_
+#define APPLICATION_DOOR_LOCKER_SECURITY_SYSTEM_HMI_ECU_H_
+
+#define KEYPAD_DELAY			300
+#define PASSWORD_SIZE			5
+#define I_AM_READY				0x01
+
+#define ALARM_DELAY				60000
+#define OPEN_DOOR				1U
+#define ONE_SECOND_COUNT 7812 // Compare match value for 1 second delay with 1024 prescaler
+
+#endif /* APPLICATION_DOOR_LOCKER_SECURITY_SYSTEM_HMI_ECU_H_ */

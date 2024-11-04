@@ -1,0 +1,2739 @@
+23:57:48 **** Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/pwm.d" -MT"MCAL/pwm.o" -c -o "MCAL/pwm.o" "../MCAL/pwm.c"
+Finished building: ../MCAL/pwm.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:254: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:257: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:260: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../HAL/buzzer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/buzzer.d" -MT"HAL/buzzer.o" -c -o "HAL/buzzer.o" "../HAL/buzzer.c"
+Finished building: ../HAL/buzzer.c
+ 
+Building file: ../HAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/external_eeprom.d" -MT"HAL/external_eeprom.o" -c -o "HAL/external_eeprom.o" "../HAL/external_eeprom.c"
+Finished building: ../HAL/external_eeprom.c
+ 
+Building file: ../HAL/motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/motor.d" -MT"HAL/motor.o" -c -o "HAL/motor.o" "../HAL/motor.c"
+Finished building: ../HAL/motor.c
+ 
+Building file: ../HAL/pir_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/pir_sensor.d" -MT"HAL/pir_sensor.o" -c -o "HAL/pir_sensor.o" "../HAL/pir_sensor.c"
+Finished building: ../HAL/pir_sensor.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9760 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:59:12 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/pwm.d" -MT"MCAL/pwm.o" -c -o "MCAL/pwm.o" "../MCAL/pwm.c"
+Finished building: ../MCAL/pwm.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:254: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:257: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:260: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../HAL/buzzer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/buzzer.d" -MT"HAL/buzzer.o" -c -o "HAL/buzzer.o" "../HAL/buzzer.c"
+Finished building: ../HAL/buzzer.c
+ 
+Building file: ../HAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/external_eeprom.d" -MT"HAL/external_eeprom.o" -c -o "HAL/external_eeprom.o" "../HAL/external_eeprom.c"
+Finished building: ../HAL/external_eeprom.c
+ 
+Building file: ../HAL/motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/motor.d" -MT"HAL/motor.o" -c -o "HAL/motor.o" "../HAL/motor.c"
+Finished building: ../HAL/motor.c
+ 
+Building file: ../HAL/pir_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/pir_sensor.d" -MT"HAL/pir_sensor.o" -c -o "HAL/pir_sensor.o" "../HAL/pir_sensor.c"
+Finished building: ../HAL/pir_sensor.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    4456 bytes (13.6% Full)
+(.text + .data + .bootloader)
+
+Data:         65 bytes (3.2% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+23:59:14 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:254: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:257: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:260: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../HAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/keypad.d" -MT"HAL/keypad.o" -c -o "HAL/keypad.o" "../HAL/keypad.c"
+Finished building: ../HAL/keypad.c
+ 
+Building file: ../HAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/lcd.d" -MT"HAL/lcd.o" -c -o "HAL/lcd.o" "../HAL/lcd.c"
+../HAL/lcd.c: In function 'LCD_moveCursor':
+../HAL/lcd.c:158: warning: 'lcd_memory_address' may be used uninitialized in this function
+../HAL/lcd.c: In function 'LCD_displayStringRowColumn':
+../HAL/lcd.c:158: warning: 'lcd_memory_address' may be used uninitialized in this function
+../HAL/lcd.c:158: note: 'lcd_memory_address' was declared here
+Finished building: ../HAL/lcd.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O3 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5270 bytes (16.1% Full)
+(.text + .data + .bootloader)
+
+Data:        327 bytes (16.0% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:00:22 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/pwm.d" -MT"MCAL/pwm.o" -c -o "MCAL/pwm.o" "../MCAL/pwm.c"
+Finished building: ../MCAL/pwm.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:254: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:257: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:260: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../HAL/buzzer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/buzzer.d" -MT"HAL/buzzer.o" -c -o "HAL/buzzer.o" "../HAL/buzzer.c"
+Finished building: ../HAL/buzzer.c
+ 
+Building file: ../HAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/external_eeprom.d" -MT"HAL/external_eeprom.o" -c -o "HAL/external_eeprom.o" "../HAL/external_eeprom.c"
+Finished building: ../HAL/external_eeprom.c
+ 
+Building file: ../HAL/motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/motor.d" -MT"HAL/motor.o" -c -o "HAL/motor.o" "../HAL/motor.c"
+Finished building: ../HAL/motor.c
+ 
+Building file: ../HAL/pir_sensor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/pir_sensor.d" -MT"HAL/pir_sensor.o" -c -o "HAL/pir_sensor.o" "../HAL/pir_sensor.c"
+Finished building: ../HAL/pir_sensor.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9760 bytes (29.8% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:00:24 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:254: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:257: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:260: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../HAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/keypad.d" -MT"HAL/keypad.o" -c -o "HAL/keypad.o" "../HAL/keypad.c"
+In file included from ../HAL/keypad.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../HAL/keypad.c
+ 
+Building file: ../HAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/lcd.d" -MT"HAL/lcd.o" -c -o "HAL/lcd.o" "../HAL/lcd.c"
+In file included from ../HAL/lcd.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../HAL/lcd.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14406 bytes (44.0% Full)
+(.text + .data + .bootloader)
+
+Data:        335 bytes (16.4% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:04:49 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9496 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:04:50 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14072 bytes (42.9% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:11:03 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9502 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:11:04 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14072 bytes (42.9% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:34:46 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9502 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+00:34:46 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14078 bytes (43.0% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:00:34 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9482 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:00:35 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14078 bytes (43.0% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:02:53 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9482 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:02:54 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14078 bytes (43.0% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:12:17 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9482 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:12:17 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14122 bytes (43.1% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:16:19 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9482 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:16:20 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14122 bytes (43.1% Full)
+(.text + .data + .bootloader)
+
+Data:        321 bytes (15.7% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:20:34 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9482 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:20:34 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14130 bytes (43.1% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:21:07 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9482 bytes (28.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:21:07 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14138 bytes (43.1% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:24:41 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9488 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:24:43 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14138 bytes (43.1% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:29:55 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9496 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:29:57 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14138 bytes (43.1% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:33:54 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APPLICATION/Door_Locker_Security_System_Control_ECU.c: In function 'main':
+../APPLICATION/Door_Locker_Security_System_Control_ECU.c:263: error: 'g_incorrectPass1' undeclared (first use in this function)
+../APPLICATION/Door_Locker_Security_System_Control_ECU.c:263: error: (Each undeclared identifier is reported only once
+../APPLICATION/Door_Locker_Security_System_Control_ECU.c:263: error: for each function it appears in.)
+make: *** [APPLICATION/Door_Locker_Security_System_Control_ECU.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+01:33:54 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14154 bytes (43.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:34:29 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9512 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:34:30 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14154 bytes (43.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:39:03 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9512 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:39:04 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14154 bytes (43.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:51:17 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:51:18 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14160 bytes (43.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:58:13 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+01:58:14 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14160 bytes (43.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:01:46 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9518 bytes (29.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:01:47 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14160 bytes (43.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:05:09 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:05:10 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:11:25 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:11:26 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:19:11 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/pwm.d" -MT"MCAL/pwm.o" -c -o "MCAL/pwm.o" "../MCAL/pwm.c"
+Finished building: ../MCAL/pwm.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:19:12 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:19:31 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+02:19:32 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:22:04 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../HAL/external_eeprom.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/external_eeprom.d" -MT"HAL/external_eeprom.o" -c -o "HAL/external_eeprom.o" "../HAL/external_eeprom.c"
+Finished building: ../HAL/external_eeprom.c
+ 
+Building file: ../HAL/motor.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/motor.d" -MT"HAL/motor.o" -c -o "HAL/motor.o" "../HAL/motor.c"
+Finished building: ../HAL/motor.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:22:07 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../MCAL/gpio.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/gpio.d" -MT"MCAL/gpio.o" -c -o "MCAL/gpio.o" "../MCAL/gpio.c"
+Finished building: ../MCAL/gpio.c
+ 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:254: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:257: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:260: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../HAL/keypad.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/keypad.d" -MT"HAL/keypad.o" -c -o "HAL/keypad.o" "../HAL/keypad.c"
+In file included from ../HAL/keypad.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../HAL/keypad.c
+ 
+Building file: ../HAL/lcd.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"HAL/lcd.d" -MT"HAL/lcd.o" -c -o "HAL/lcd.o" "../HAL/lcd.c"
+In file included from ../HAL/lcd.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../HAL/lcd.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:30:01 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/pwm.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/pwm.d" -MT"MCAL/pwm.o" -c -o "MCAL/pwm.o" "../MCAL/pwm.c"
+Finished building: ../MCAL/pwm.c
+ 
+Building file: ../MCAL/twi.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/twi.d" -MT"MCAL/twi.o" -c -o "MCAL/twi.o" "../MCAL/twi.c"
+Finished building: ../MCAL/twi.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:30:03 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:31:08 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+14:31:09 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:09 **** Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:19:11 **** Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:25:13 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9782 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+19:25:13 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:20:55 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9788 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         73 bytes (3.6% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:20:59 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:22:31 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9604 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:22:32 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14558 bytes (44.4% Full)
+(.text + .data + .bootloader)
+
+Data:        337 bytes (16.5% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:26:55 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9604 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+21:26:55 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14250 bytes (43.5% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:23:26 **** Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9604 bytes (29.3% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:23:27 **** Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:273: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:276: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:279: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../MCAL/uart.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/uart.d" -MT"MCAL/uart.o" -c -o "MCAL/uart.o" "../MCAL/uart.c"
+Finished building: ../MCAL/uart.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14330 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:39:06 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:273: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:276: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:279: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9684 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+20:39:07 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14330 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:47:45 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9684 bytes (29.6% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:47:48 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14330 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:50:05 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:306: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:309: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:312: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9834 bytes (30.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+05:50:07 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../MCAL/timer.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"MCAL/timer.d" -MT"MCAL/timer.o" -c -o "MCAL/timer.o" "../MCAL/timer.c"
+../MCAL/timer.c: In function 'Timer_setCallBack':
+../MCAL/timer.c:306: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:309: warning: function return types not compatible due to 'volatile'
+../MCAL/timer.c:312: warning: function return types not compatible due to 'volatile'
+Finished building: ../MCAL/timer.c
+ 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14480 bytes (44.2% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:04:22 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9834 bytes (30.0% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:04:22 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:12:28 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:12:29 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:16:41 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:16:42 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:18:36 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:18:37 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:18:49 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../APPLICATION/Door_Locker_Security_System_Control_ECU.c: In function 'main':
+../APPLICATION/Door_Locker_Security_System_Control_ECU.c:285: error: label at end of compound statement
+make: *** [APPLICATION/Door_Locker_Security_System_Control_ECU.o] Error 1
+"make all" terminated with exit code 2. Build might be incomplete.
+06:18:49 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:18:52 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:18:53 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:19:03 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_Control_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_Control_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_Control_ECU.o" "../APPLICATION/Door_Locker_Security_System_Control_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_Control_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_Control_ECU.c
+ 
+Building target: Door_Locker_Security_System_Control_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_Control_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_Control_ECU.elf"  ./MCAL/gpio.o ./MCAL/pwm.o ./MCAL/timer.o ./MCAL/twi.o ./MCAL/uart.o  ./HAL/buzzer.o ./HAL/external_eeprom.o ./HAL/motor.o ./HAL/pir_sensor.o  ./APPLICATION/Door_Locker_Security_System_Control_ECU.o   
+Finished building target: Door_Locker_Security_System_Control_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_Control_ECU.elf  >"Door_Locker_Security_System_Control_ECU.lss"
+Finished building: Door_Locker_Security_System_Control_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:19:04 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:22:58 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:22:59 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:23:17 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:23:17 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:23:54 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:23:54 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:37:32 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:37:33 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Building file: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega32 -DF_CPU=8000000UL -MMD -MP -MF"APPLICATION/Door_Locker_Security_System_HMI_ECU.d" -MT"APPLICATION/Door_Locker_Security_System_HMI_ECU.o" -c -o "APPLICATION/Door_Locker_Security_System_HMI_ECU.o" "../APPLICATION/Door_Locker_Security_System_HMI_ECU.c"
+In file included from ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+Finished building: ../APPLICATION/Door_Locker_Security_System_HMI_ECU.c
+ 
+Building target: Door_Locker_Security_System_HMI_ECU.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Door_Locker_Security_System_HMI_ECU.map -mmcu=atmega32 -o "Door_Locker_Security_System_HMI_ECU.elf"  ./MCAL/gpio.o ./MCAL/timer.o ./MCAL/uart.o  ./HAL/keypad.o ./HAL/lcd.o  ./APPLICATION/Door_Locker_Security_System_HMI_ECU.o   
+Finished building target: Door_Locker_Security_System_HMI_ECU.elf
+ 
+Invoking: AVR Create Extended Listing
+avr-objdump -h -S Door_Locker_Security_System_HMI_ECU.elf  >"Door_Locker_Security_System_HMI_ECU.lss"
+Finished building: Door_Locker_Security_System_HMI_ECU.lss
+ 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:37:36 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:37:37 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:38:33 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_Control_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_Control_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    9786 bytes (29.9% Full)
+(.text + .data + .bootloader)
+
+Data:         59 bytes (2.9% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
+06:38:34 **** Incremental Build of configuration Debug for project Door_Locker_Security_System_HMI_ECU ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 Door_Locker_Security_System_HMI_ECU.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:   14324 bytes (43.7% Full)
+(.text + .data + .bootloader)
+
+Data:        323 bytes (15.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
